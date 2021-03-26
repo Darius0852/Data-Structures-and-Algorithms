@@ -25,4 +25,11 @@ Then we also have some complex Data Structres, which are used to store large and
 
 All these data structures allow us to perform different operations on data. We select these data structures based on which type of operation is required.
 
+### Intro to Data Structures
+
+Data structures can be classified on the basis of the following characteristics:
+
+| **Characteristic** | **Description** |
+
+
 
