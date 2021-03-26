@@ -29,7 +29,7 @@ All these data structures allow us to perform different operations on data. We s
 
 Data structures can be classified on the basis of the following characteristics:
 
-| **Characteristic** | **Description** |
+| Characteristic | Description |
 
 
 
