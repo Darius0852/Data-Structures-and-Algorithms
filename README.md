@@ -31,10 +31,10 @@ Data structures can be classified on the basis of the following characteristics:
 
 | Characteristic  | Description |
 | :---            | :----:      |
-| Linear          | 	In Linear data structures,the data items are arranged in a linear sequence. Example: Array |
-| Non-Linear      | In Non-Linear data structures, the data items are not in sequence. Example: **Tree, Graph**  |
-| Homogeneous     | In homogeneous data structures, all the elements are of the same type. Example: **Array**    |
-| Non-Homogeneous | In Non-Homogeneous data structures, the elements may or may not be of the same type. Example **Structures**|
+| Linear          | In Linear data structures,the data items are arranged in a linear sequence. Example: **Array** |
+| Non-Linear      | In Non-Linear data structures, the data items are not in sequence. Example: **Tree, Graph** |
+| Homogeneous     | In homogeneous data structures, all the elements are of the same type. Example: **Array** |
+| Non-Homogeneous | In Non-Homogeneous data structures, the elements may or may not be of the same type. Example **Structures** |
 | Static          | Static data structures are those whose sizes and structures associated memory locations are fixed at compile time. Example: **Array** |
 | Dynamic         | Dynamic structures are those which expands or shrinks depending upon the program need and its execution. Also, their associated memory locations changes. Example: **Linked List created using pointers** |
 
