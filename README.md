@@ -39,4 +39,32 @@ Data structures can be classified on the basis of the following characteristics:
 | Dynamic         | Dynamic structures are those which expands or shrinks depending upon the program need and its execution. Also, their associated memory locations changes. Example: **Linked List created using pointers** |
 
 
+###What is an Algorithm ?
 
+An algorithm is a finite set of instructions or logic, written in order to accomplish a certain predefined task. An Algorithm is not the complete code or program, it is just tge core logic (solution) of a problem, which can be expressed either as an informal high level description as **pseudocode** or using a **flowchart**.
+
+Every Algorithm must satisfy the foloowing properties:
+
+1. **Input** - There should be 0 or more inputs supplied externally to the algorithm.
+2. **Output** - There should be atleast 1 output obtained.
+3. **Definiteness** - Every algorithm should be clear and well defined.
+4. **Finiteness** - The algorithm should have a finite number of steps. 
+5. **Corectness** - Every steo of the algorithm must generate a correct output. 
+
+An algorithm is said to be efficient and fast, if it takes less time to execute and consumes less memory space. The performance of the algorithm is measured on the basis of following properties:
+
+1. Time Complexity
+2. Space Complexity
+
+###Space Complexity
+
+Its the amount of memory space required by the algorithm, during the course of its execution. Space complexity must be taken seriously for multi-user systems and in situations where limited memory is availible. 
+
+An algorithm generally requires space for following components:
+- **Instruction Space**: Its the space required to store the executable version of the program. Thi space is fixed, but varies dependant upon the number of lines of code int he program. 
+- **Data Space**: Its the space required to store all the constants and variable (including temporary variable) values.
+- **Environment Space**: Its the space required to store the environment information needed to resume the suspended function.
+
+###Time Complexity
+
+Time Complexity is a way to represent the amount of time required by the program to run till its completion. It's generally a good practice to try to keep the time required minimum, so that our algorithm completes it's execution in the minimum time possible.
