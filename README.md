@@ -68,3 +68,7 @@ An algorithm generally requires space for following components:
 ###Time Complexity
 
 Time Complexity is a way to represent the amount of time required by the program to run till its completion. It's generally a good practice to try to keep the time required minimum, so that our algorithm completes it's execution in the minimum time possible.
+
+##Asymptotic Notations
+
+When it comes to analysing the complexity of any algorithm in terms of time and space, we can never provide an exact number to define the time required and the space required by the algorithm, instead we express it using some standard notations, also known as **Asymptotic Notations**.
