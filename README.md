@@ -39,7 +39,7 @@ Data structures can be classified on the basis of the following characteristics:
 | Dynamic         | Dynamic structures are those which expands or shrinks depending upon the program need and its execution. Also, their associated memory locations changes. Example: **Linked List created using pointers** |
 
 
-###What is an Algorithm ?
+### What is an Algorithm ?
 
 An algorithm is a finite set of instructions or logic, written in order to accomplish a certain predefined task. An Algorithm is not the complete code or program, it is just tge core logic (solution) of a problem, which can be expressed either as an informal high level description as **pseudocode** or using a **flowchart**.
 
@@ -56,7 +56,7 @@ An algorithm is said to be efficient and fast, if it takes less time to execute 
 1. Time Complexity
 2. Space Complexity
 
-###Space Complexity
+### Space Complexity
 
 Its the amount of memory space required by the algorithm, during the course of its execution. Space complexity must be taken seriously for multi-user systems and in situations where limited memory is availible. 
 
@@ -65,10 +65,10 @@ An algorithm generally requires space for following components:
 - **Data Space**: Its the space required to store all the constants and variable (including temporary variable) values.
 - **Environment Space**: Its the space required to store the environment information needed to resume the suspended function.
 
-###Time Complexity
+### Time Complexity
 
 Time Complexity is a way to represent the amount of time required by the program to run till its completion. It's generally a good practice to try to keep the time required minimum, so that our algorithm completes it's execution in the minimum time possible.
 
-##Asymptotic Notations
+## Asymptotic Notations
 
 When it comes to analysing the complexity of any algorithm in terms of time and space, we can never provide an exact number to define the time required and the space required by the algorithm, instead we express it using some standard notations, also known as **Asymptotic Notations**.
