@@ -72,3 +72,5 @@ Time Complexity is a way to represent the amount of time required by the program
 ## Asymptotic Notations
 
 When it comes to analysing the complexity of any algorithm in terms of time and space, we can never provide an exact number to define the time required and the space required by the algorithm, instead we express it using some standard notations, also known as **Asymptotic Notations**.
+
+When we analyse any algorithm, we generally get a formula to represent the amount of time required for execution or the time required by the compiter to run the lines of code of the algorithm, number of memory accesses, number of comparisons, temporary variables occupying memory space ect. This formula often contains unimportant details that don't really tell us anything about the running time. 
