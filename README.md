@@ -73,11 +73,11 @@ Time Complexity is a way to represent the amount of time required by the program
 
 When it comes to analysing the complexity of any algorithm in terms of time and space, we can never provide an exact number to define the time required and the space required by the algorithm, instead we express it using some standard notations, also known as **Asymptotic Notations**.
 
-When we analyse any algorithm, we generally get a formula to represent the amount of time required for execution or the time required by the compiter to run the lines of code of the algorithm, number of memory accesses, number of comparisons, temporary variables occupying memory space ect. This formula often contains unimportant details that don't really tell us anything about the running time. 
+When we analyse any algorithm, we generally get a formula to represent the amount of time required for execution or the time required by the computer to run the lines of code of the algorithm, number of memory accesses, number of comparisons, temporary variables occupying memory space ect. This formula often contains unimportant details that don't really tell us anything about the running time. 
 
 Let us take an example, if some algorithm has a time complexity of T(n) = (n<sup>2</sup> + 3n + 4), which is a quadratic equation. For large values of n, the 3n + 4 part will become insignificant compared to the n<sup>2</sup> part. 
 
-Also, when we compare the execution times of two algorithms the cvonstant coefficients of higher order terms are also neglected.
+Also, when we compare the execution times of two algorithms the constant coefficients of higher order terms are also neglected.
 
 An algorithm that takes a time of 200n<sup>2</sup> will be faster than some other algorithm that takes n<sup>3</sup> time, for any value of n larger than 200. Since we're only insterested in the asymptotic behaviour of the growth of the function, the constant factor can be ignored too. 
 
@@ -88,3 +88,14 @@ The word **Asymptotic** means approaching a value or curve arbitrarily closely (
 Remember studying about **Limits** in High School, this is the same. 
 
 The only difference being, here we do not have to find the value of any expression where n is approaching any finite number or infinity, but in the case of Asymptotic notations, we use the same model to ignore the constant factors and insignificant parts of an expression, to devise a better way of representing complexities of algorithms, in a single coefficient, so that comparison between algorithms can be done easily. 
+
+Let's take an example to understand this:
+
+If we have two algorithms with the following expressions representing the time required by them for execution, then:
+
+**Expression 1**: (20n<sup>2</sup> + 3n - 4)
+**Expression 2**: (n<sup>3</sup> + 100n - 2)
+
+Now, as per asymptotic notations, we should just worry about how the function will grow as the value of n (input) will grow, and that will entirely depend on n<sup>2</sup> for the Expression 1, and on n<sup>3</sup> for Expression 2. Hence, we can clearly say that the algorithm for which running time is represented by the Expression 2, will grow faster than the other one, simply by analysing the hihgest coefficient and ignoring the other constants (20 in 20n<sup>2</sup>) and insignificant parts of the expression (3n - 4 and 100n - 2).
+
+The main idea behind castingaside the less important part is to make things manageable. All we need to do is, first analyse th ealgorithm to find out an expression to define it;s time requirements and then analyse how that expression will grow as the input(n) will grow.
