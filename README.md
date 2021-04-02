@@ -98,4 +98,20 @@ If we have two algorithms with the following expressions representing the time r
 
 Now, as per asymptotic notations, we should just worry about how the function will grow as the value of n (input) will grow, and that will entirely depend on n<sup>2</sup> for the Expression 1, and on n<sup>3</sup> for Expression 2. Hence, we can clearly say that the algorithm for which running time is represented by the Expression 2, will grow faster than the other one, simply by analysing the hihgest coefficient and ignoring the other constants (20 in 20n<sup>2</sup>) and insignificant parts of the expression (3n - 4 and 100n - 2).
 
-The main idea behind castingaside the less important part is to make things manageable. All we need to do is, first analyse th ealgorithm to find out an expression to define it;s time requirements and then analyse how that expression will grow as the input(n) will grow.
+The main idea behind casting aside the less important part is to make things manageable. All we need to do is, first analyse the algorithm to find out an expression to define it's time requirements and then analyse how that expression will grow as the input(n) will grow.
+
+## Types of Asymptotic Notations
+
+We use three types of asymptopic notations to represent the growth of any algorithm, as input increases:
+
+1) Big Theta (Θ)
+2) Big Oh (O)
+3) Big Omega (Ω)
+
+### Tight Bounds: Theta 
+
+When we say tight bounds, we mean that the time complexity represented by the Big-O notation is like the average value or range within which the actual time of execution of the algorithm will be. 
+
+For example, if for some algorithm the time complexity is represented by the expression 3n<sup>2</sup> + 5n, and we use the Big-Θ notation to represent this, then the time complexity would be Θ(n<sup>2</sup>) ignoring the constant coefficient and removing the insignificant part, which is 5n. 
+
+Here, in the example above, complexity of Θ(n<sup>2</sup>) means, that the average time for any input n will remain in between k1 * n<sup>2</sup> and k2 * n<sup>2</sup>, where k1 and k2 are two constants, thereby tightly binding the expression representing the growth of the algorithm. 
