@@ -23,6 +23,8 @@ Then we also have some complex Data Structres, which are used to store large and
 - Graph
 - Stack, Queue ect.
 
+![](https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/introduction-to-data-structures.gif)
+
 All these data structures allow us to perform different operations on data. We select these data structures based on which type of operation is required.
 
 ### Intro to Data Structures
