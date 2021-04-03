@@ -22,10 +22,10 @@ Then we also have some complex Data Structres, which are used to store large and
 - Tree
 - Graph
 - Stack, Queue ect.
+
 <p align="center">
   <img src="https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/introduction-to-data-structures.gif" />
 </p>
-![](https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/introduction-to-data-structures.gif)
 
 All these data structures allow us to perform different operations on data. We select these data structures based on which type of operation is required.
 
@@ -81,7 +81,9 @@ When we analyse any algorithm, we generally get a formula to represent the amoun
 
 Let us take an example, if some algorithm has a time complexity of T(n) = (n<sup>2</sup> + 3n + 4), which is a quadratic equation. For large values of n, the 3n + 4 part will become insignificant compared to the n<sup>2</sup> part.
 
-![](https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/aysmptotic-notation-1.webp)
+<p align="center">
+  <img src="https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/aysmptotic-notation-1.webp" />
+</p>
 
 Also, when we compare the execution times of two algorithms the constant coefficients of higher order terms are also neglected.
 
@@ -122,4 +124,6 @@ For example, if for some algorithm the time complexity is represented by the exp
 
 Here, in the example above, complexity of Θ(n<sup>2</sup>) means, that the average time for any input n will remain in between k1 * n<sup>2</sup> and k2 * n<sup>2</sup>, where k1 and k2 are two constants, thereby tightly binding the expression representing the growth of the algorithm. 
 
-![](https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/big-theta.png)
+<p align="center">
+  <img src="https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/big-theta.png" />
+</p>
