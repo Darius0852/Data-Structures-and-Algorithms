@@ -5,7 +5,7 @@ Notes from Data Structures and Algorithms from courses/exercises
 
 ## Intro to Data Structure and Algorithms
 
-Data structure is a way of organising data in such a way that we can perform operatioons on these data in an effective way. Data structures is about rendering data elements in terms of some relationship, for better organization and storage. For example, we have some adat which has, player's name "Virat" and age 26. Here "Virat" is a **String** data type and 26 is of **Integer** data type.
+Data structure is a way of organising data in such a way that we can perform operations on these data in an effective way. Data structures is about rendering data elements in terms of some relationship, for better organization and storage. For example, we have some data which has, player's name "Virat" and age 26. Here "Virat" is a **String** data type and 26 is of **Integer** data type.
 
 We can organize this data as a record like **Player** record, which will have both player's name and age in it. Now we can collect and store player's records in a file or database as a data structure. **For example**: "Dhoni" 30, "Gambhi" 31, "Sue" 35.
 
