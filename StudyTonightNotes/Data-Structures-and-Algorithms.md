@@ -134,7 +134,7 @@ The notation is known as the upper bound of the algorithm, or a Wost Case of an 
 
 It tells us that a certain function will never exceed a specified time for any value of input n.
 
-The question is why we need this representation when we already have big-O notation, which represents the tightly bound running time for any algorithm. Let's take a small example to understand this.
+The question is why we need this representation when we already have big-Θ notation, which represents the tightly bound running time for any algorithm. Let's take a small example to understand this.
 
 Consider Linear Search algorithm, in which we traverse an array's elements, one by one to search a given number.
 
