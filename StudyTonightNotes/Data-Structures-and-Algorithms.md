@@ -127,3 +127,29 @@ Here, in the example above, complexity of Θ(n<sup>2</sup>) means, that the aver
 <p align="center">
   <img src="https://github.com/Darius0852/Data-Structures-and-Algorithms/blob/main/Images/big-theta.png" />
 </p>
+
+### Upper Bounds: Big-O
+
+The notation is known as the upper bound of the algorithm, or a Wost Case of an algorithm.
+
+It tells us that a certain function will never exceed a specified time for any value of input n.
+
+The question is why we need this representation when we already have big-O notation, which represents the tightly bound running time for any algorithm. Let's take a small example to understand this.
+
+Consider Linear Search algorithm, in which we traverse an array's elements, one by one to search a given number.
+
+In **Worst case**, starting from the front of the array, we find the element or number we are searching for at the end, which will lead to a time complexity of n, where n represents the number of total elements. 
+
+But it can happen, that the element that we are searching for is the first element of the array, in which case time complexity will be 1.
+
+Now in this case, saying that the big-O or tight bound time complexity for Linear search is Θ(n), will mean that the tiome required will always be related to n, as this is the right way to represent the average tiome complexity, but when we use the big-O notation, we mean to say that the time complexity os O(n), which mens that the time complexity will never exceed m. defining the upper bound, hence saying that it can be less than o equal to n, which is te correct representation.
+
+Tis is the reason, most of the tim you will see Big-O notation being used to represent the time complexity of any algorithm, because it makes more sense.
+
+### Lower Bounds: Omega
+
+Big Omega notation is used to define te **lower bound** of any algorithm or we can say **the best case** of any algorithm.
+
+This always indicates the minimum time required for any algorithm for all input values, therefore the best case of any algorithm.
+
+In simple words, when we represent a time complexity for any algorithm in the form of big-Ω, we mean that the algorithm will take at least this much time to complete it's execution. It can definitely take more time than this too. 
