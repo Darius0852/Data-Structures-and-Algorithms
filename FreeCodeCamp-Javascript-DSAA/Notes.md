@@ -168,4 +168,126 @@ In mathematics, a number can be checked to be even or odd by checking the remain
 17 % 2 = 1 (17 is Odd)
 48 % 2 = 0 (48 is Even)
 ```
-## Javascript Linked Lists
+## Compound Assignment with Augmented Addition
+
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
+```
+myVar = myVar + 5;
+```
+to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
+
+One such operator is the += operator.
+```
+var myVar = 1;
+myVar += 5;
+console.log(myVar);
+```
+6 would be displayed in the console.
+
+Convert the assignments for a, b, and c to use the += operator.
+
+```
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only change code below this line
+a += 12;
+b += 9;
+c += 7;
+```
+
+## Compound Assignment With Augmented Subtraction
+
+Convert the assignments for a, b, and c to use the -= operator.
+
+```
+var a = 11;
+var b = 9;
+var c = 3;
+
+// Only change code below this line
+a -= 6;
+b -= 15;
+c -= 1;
+```
+
+## Compound Assignment With Augmented Multiplication
+
+Convert the assignments for a, b, and c to use the *= operator.
+
+```
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+// Only change code below this line
+a *= 5;
+b *= 3;
+c *= 10;
+```
+
+## Compound Assignment With Augmented Division
+
+Convert the assignments for a, b, and c to use the /= operator.
+
+```
+var a = 48;
+var b = 108;
+var c = 33;
+
+// Only change code below this line
+a /= 12;
+b /= 4;
+c /= 11;
+```
+
+## Declare String Variables
+
+Create two new string variables: myFirstName and myLastName and assign them the values of your first and last name, respectively.
+
+```
+var myFirstName = "Darius";
+var myLastName = "Ghomashchian";
+```
+
+## Escaping Literal Quotes in Strings
+
+When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: " or ' inside of your string?
+
+In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
+```
+var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+```
+This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:
+```
+Alan said, "Peter is learning JavaScript".
+```
+
+Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+```
+I am a "double quoted" string inside "double quotes".
+```
+
+```
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(myStr);
+```
+
+## Quoting Strings with Single Quotes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
