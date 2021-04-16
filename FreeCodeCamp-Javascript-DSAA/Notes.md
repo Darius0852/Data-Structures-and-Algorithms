@@ -277,14 +277,49 @@ console.log(myStr);
 ## Quoting Strings with Single Quotes
 
 
+Remember, a string has the same kind of quote at the beginning and end. But if you have that same quote somewhere in the middle, the string will stop early and throw an error.
+```
+goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
+badStr = 'Finn responds, "Let's go!"';
+```
+Here badStr will throw an error.
 
+Below is another example (answer):
+```
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+```
 
+## Escape Sequences in Strings
 
+Quotes are not the only characters that can be escaped inside a string. There are two reasons to use escaping characters:
 
+1. To allow you to use characters you may not otherwise be able to type out, such as a carriage return.
+2. To allow you to represent multiple quotes in a string without JavaScript misinterpreting what you mean.
+   We learned this in the previous challenge.
 
+| Code |      Output     |
+|:----:|:---------------:|
+|  \'  |   single quote  |
+|  \"  |   double quote  |
+|  \\  |    backslash    |
+|  \n  |     newline     |
+|  \r  | carriage return |
+|  \t  |       tab       |
+|  \b  |  word boundary  |
+|  \f  |    form feed    |
 
+Note that the backslash itself must be escaped in order to display as a backslash.
 
-
+Example - To generate this:
+```
+FirstLine
+    \SecondLine
+ThirdLine
+```
+We use this:
+```
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; 
+```
 
 
 
