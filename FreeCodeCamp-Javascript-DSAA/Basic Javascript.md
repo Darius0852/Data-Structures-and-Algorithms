@@ -451,6 +451,105 @@ var thirdToLastLetter = firstName[firstName.length - 3];
 ```
 thirdToLastLetter would have a value of the string l.
 
+## World Blanks
+
+We will now use our knowledge of strings to build a "Mad Libs" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
+
+In a "Mad Libs" game, you are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
+
+Consider this sentence - It was really ____, and we ____ ourselves ____. This sentence has three missing pieces- an adjective, a verb and an adverb, and we can add words of our choice to complete it. We can then assign the completed sentence to a variable as follows:
+
+```
+var sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+```
+
+In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
+
+You will need to use the string concatenation operator + to build a new string, using the provided variables: myNoun, myAdjective, myVerb, and myAdverb. You will then assign the formed string to the wordBlanks variable. You should not change the words assigned to the variables.
+
+You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+
+```
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+
+// Only change code below this line
+var wordBlanks = "My " + myNoun + " was really "  + myAdjective + " and he " + myVerb + " very " + myAdverb + "."; // Change this line
+// Only change code above this line
+```
+
+## Store Multiple Values in one Variable using Javascript Arrays
+
+With JavaScript array variables, we can store several pieces of data in one place.
+
+You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this:
+
+```
+var sandwich = ["peanut butter", "jelly", "bread"]
+```
+
+Modify the new array myArray so that it contains both a string and number (in that order).
+
+```
+// Only change code below this line
+var myArray = ["hi", 5];
+```
+
+## Nest one Array within Another Array
+
+You can also nest arrays within other arrays, like below:
+
+```
+[["Bulls", 23], ["White Sox", 45]]
+```
+This is also called a multi-dimensional array.
+
+Create a nested array called myArray
+
+```
+// Only change code below this line
+var myArray = [["White", 55]];
+```
+
+## Access Array Data with Indexes
+
+We can access the data inside arrays using indexes.
+
+Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use zero-based indexing, so the first element in an array has an index of 0.
+
+Example
+```
+var array = [50,60,70];
+array[0];
+var data = array[1];
+```
+
+array[0] is now 50, and data has the avlue 60.
+
+**Note**
+There shouldn't be any spaces between the array name and the square brackets, like array [0]. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+
+Create a variable called myData and set it to equal the first value of myArray using bracket notation.
+
+```
+var myArray = [50,60,70];
+var myData = myArray[0];
+```
+
+## Modify Array Data With Indexes
+
+Unlike strings, the entries of arrays are *mutable*
+
+**Example**
+
+
+
+
+
+
+
 
 
 
