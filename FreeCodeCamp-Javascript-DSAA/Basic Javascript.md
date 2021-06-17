@@ -540,17 +540,54 @@ var myData = myArray[0];
 
 ## Modify Array Data With Indexes
 
-Unlike strings, the entries of arrays are *mutable*
+Unlike strings, the entries of arrays are *mutable* and can be changed freely.
+
+**Example**
+```
+var ourArray = [50,40,30];
+ourArray[0] = 15;
+```
+ourArray now has the value [15, 40, 30].
+
+**Note**
+There shouldn't be any spaces between the array name and the square brackets, like array [0]. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+
+Modify the data stored at index 0 of myArray to a value of 45.
+
+```
+// Setup
+var myArray = [18,64,99];
+myArray[0] = 45;
+// Only change code below this line
+```
+
+## Access Multi-Dimensional Arrays With Indexes
+
+One way to think of a *multi-dimanesional* array, is as an array of arrays. When you use the brackets to access your array, the first set of brackets refers to the entries int he outer-most (the first level) array, and each additional pair of brackets refers to the next level of entries.
 
 **Example**
 
+```
+var arr = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [[10,11,12], 13, 14]
+];
+arr[3];
+arr[3][0];
+arr[3][0][1];
+```
+arr[3] is [[10, 11, 12], 13, 14], arr[3][0] is [10, 11, 12], and arr[3][0][1] is 11.
 
+**Note**
+There shouldn't be any spaces between the array name and the square brackets, like array [0][0] and even this array [0] [0] is not allowed. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
 
+Using bracket notation select an element from myArray such that myData is equal to 8.
 
+```
 
-
-
-
+```
 
 
 
