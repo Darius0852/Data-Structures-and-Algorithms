@@ -586,8 +586,196 @@ There shouldn't be any spaces between the array name and the square brackets, li
 Using bracket notation select an element from myArray such that myData is equal to 8.
 
 ```
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+
+var myData = myArray[2][1];
+```
+
+## Multiple Arrays With push()
+
+AN easy way to append data to the end of an array is via the push() function.
+
+.push() takes one or more *parameters* and "pushes" them onto the end of the array.
+
+**Examples:**
 
 ```
+var arr1 = [1,2,3];
+arr1.push(4);
+
+var arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+```
+
+arr1 now has the value [1, 2, 3, 4] and arr2 has the value ["Stimpson", "J", "cat", ["happy", "joy"]].
+
+Push ["dog", 3] onto the end of the myArray variable.
+
+```
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+myArray.push(["dog", 3]);
+// Only change code below this line
+```
+
+## Manipulate Arrays with pop()
+
+Another way to change data in an array is with the .pop() function.
+
+.pop() us used to pop a value off of the end of an array. We can store this popped off value by assignning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+
+Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
+
+```
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+```
+
+The first console.log will display the value 6, and the second will display the value [1, 4].
+
+Use the .pop() function to remove the last item from myArray, assigning the popped off value to removedFromMyArray.
+
+```
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+var removedFromMyArray = myArray.pop();
+```
+
+## Manipulate Arrays with shift()
+
+pop() always removes the last element of an array. What if you want to remove the first?
+
+That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
+
+**Example:**
+
+```
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+```
+
+removedFromOurArray would have the value of the string Stimpson, and ourArray would have ["J", ["cat"]].
+
+Use the .shift() function to remove the first item from myArray, assigning the "shifted off" value to removedFromMyArray.
+
+```
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+var removedFromMyArray = myArray.shift();
+```
+
+## Manipulate Arrays With unshift()
+
+Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.
+
+.unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
+
+**Example:**
+
+```
+var ourArray = ["Stimpson", "J", "cat"]
+ourArray.shift();
+ourArray.unshift("Happy");
+```
+
+After the shift, ourArray would have the value ["J", "cat]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
+
+Add ["Paul", 35] to the beginning of the myArray variable using unshift().
+
+```
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+myArray.unshift(["Paul", 35]);
+```
+
+## Shopping List
+
+Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
+```
+["Chocolate Bar", 15]
+```
+
+There should be at least 5 sub-arrays in the list.
+
+```
+var myList = [["Milk", 3], ["Eggs", 24], ["Pasta", 2], ["Creme", 4], ["Mushrooms", 12]];
+```
+
+## Write Reusable JavaScript with Functions
+
+In JavaScript, we can divide up our code into reusable parts called functions.
+
+Here's an example of a function:
+
+```
+function functionName() {
+   console.log("Hello World");
+}
+```
+
+You can call or *invoke* this function by using its name followed by parentheses, like this: functionName(); Each time the function is called it will print out the message Hello World on the dev console. All of the code between the curly braces will be executed every time the function is called.
+
+1. Create a function called reusableFunction which prints the string Hi World to the dev console.
+2. 2. Call the function.
+
+```
+//creating a reusable function
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction();
+```
+
+## Passing Values to Functions with Arguments
+
+*Parameters* are variablesz that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "*passed*") into a function when it is called are known as *arguements*.
+
+Here is a function with two parameters, param1 and param2:
+
+```
+fucntion testFun(param1, param2) {
+   console.log(param1, param2);
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
